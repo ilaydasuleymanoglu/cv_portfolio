@@ -8,6 +8,7 @@ import Education from '@/components/Education';
 import Skills from '@/components/Skills';
 import MeteoDash from '@/components/MeteoDash';
 import EnergyTrading from '@/components/EnergyTrading';
+import Affiliations from '@/components/Affiliations';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -41,6 +42,7 @@ export default function Home() {
       <Hero language={language} />
       <MeteoDash language={language} />
       <EnergyTrading language={language} />
+      <Affiliations language={language} />
       <Experience language={language} />
       <Education language={language} />
       <Skills language={language} />
