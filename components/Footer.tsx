@@ -95,6 +95,45 @@ export default function Footer({ language }: FooterProps) {
                   💼 LinkedIn Profile
                 </a>
               </p>
+              <p>
+                <a
+                  href="https://github.com/ilaydasuleymanoglu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
+                >
+                  💻 GitHub
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://x.com/ilaydaslymnglu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
+                >
+                  🐦 X (Twitter)
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://leetcode.com/u/iisuleymanogluvural/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
+                >
+                  👨‍💻 LeetCode
+                </a>
+              </p>
             </div>
           </div>
         </div>

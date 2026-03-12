@@ -116,7 +116,7 @@ export default function Contact({ language }: ContactProps) {
 
           {/* LinkedIn */}
           <a
-            href={`https://${contact.linkedin}`}
+            href="https://www.linkedin.com/in/ilayda-suleymanoglu/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
@@ -135,9 +135,9 @@ export default function Contact({ language }: ContactProps) {
             </p>
           </a>
 
-          {/* Company */}
+          {/* GitHub / X */}
           <a
-            href={`https://${contact.company}`}
+            href="https://github.com/ilaydasuleymanoglu"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
@@ -146,10 +146,52 @@ export default function Contact({ language }: ContactProps) {
             onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
           >
             <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
-              🌐
+              💻
             </div>
             <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
-              {language === 'en' ? 'Company' : 'Şirket'}
+              GitHub
+            </h3>
+            <p className="text-gray-600">
+              {language === 'en' ? 'Check out my code' : 'Kodlarımı inceleyin'}
+            </p>
+          </a>
+
+          {/* Work / Company */}
+          <a
+            href="https://pureenergy.com.tr/tr/about-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
+          >
+            <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
+              ⚡
+            </div>
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
+              {language === 'en' ? 'Current Work' : 'Çalıştığım Şirket'}
+            </h3>
+            <p className="text-gray-600">
+              Pure Energy
+            </p>
+          </a>
+
+          {/* Startup / Founder */}
+          <a
+            href="https://www.netcontechnologies.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
+          >
+            <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
+              🚀
+            </div>
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
+              {language === 'en' ? 'My Startup' : 'Kurduğum Şirket'}
             </h3>
             <p className="text-gray-600">
               NetCoN Technologies

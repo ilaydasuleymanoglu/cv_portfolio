@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { CloudRainWind, ThermometerSun, Mail, Linkedin, FileText, Globe } from 'lucide-react';
+import { CloudRainWind, ThermometerSun, Mail, Linkedin, Github, Twitter, Code, Globe } from 'lucide-react';
 import en from '@/locales/en/common.json';
 import tr from '@/locales/tr/common.json';
 
@@ -55,14 +55,25 @@ export default function Hero({ language }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-wrap gap-4 pt-4"
+            className="flex flex-wrap items-center gap-4 pt-4"
           >
             <a href="#contact" className="px-8 py-3 rounded-full bg-accent-primary text-bg-color font-semibold hover:bg-accent-primary/90 transition-all flex items-center gap-2 hover:scale-105 shadow-[0_0_20px_rgba(56,189,248,0.3)]">
               <Mail className="w-5 h-5" /> {language === 'en' ? 'Get In Touch' : 'İletişime Geçin'}
             </a>
-            <a href={`https://${contact.linkedin}`} target="_blank" rel="noreferrer" className="px-8 py-3 rounded-full glass hover:bg-white/10 transition-all text-text-primary flex items-center gap-2 border hover:border-accent-secondary/50">
-              <Linkedin className="w-5 h-5 text-accent-secondary" /> LinkedIn
-            </a>
+            <div className="flex gap-3 ml-2">
+              <a href="https://linkedin.com/in/ilayda-suleymanoglu" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass hover:bg-white/10 transition-all text-text-primary flex items-center justify-center border hover:border-accent-secondary/50 group">
+                <Linkedin className="w-5 h-5 text-accent-secondary group-hover:scale-110 transition-transform" />
+              </a>
+              <a href="https://github.com/ilaydasuleymanoglu" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass hover:bg-white/10 transition-all text-text-primary flex items-center justify-center border hover:border-accent-secondary/50 group">
+                <Github className="w-5 h-5 text-accent-secondary group-hover:scale-110 transition-transform" />
+              </a>
+              <a href="https://x.com/ilaydaslymnglu" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass hover:bg-white/10 transition-all text-text-primary flex items-center justify-center border hover:border-accent-secondary/50 group">
+                <Twitter className="w-5 h-5 text-accent-secondary group-hover:scale-110 transition-transform" />
+              </a>
+              <a href="https://leetcode.com/u/iisuleymanogluvural/" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass hover:bg-white/10 transition-all text-text-primary flex items-center justify-center border hover:border-accent-secondary/50 group" title="LeetCode">
+                <Code className="w-5 h-5 text-accent-secondary group-hover:scale-110 transition-transform" />
+              </a>
+            </div>
           </motion.div>
         </div>
 
