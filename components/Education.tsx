@@ -14,15 +14,16 @@ export default function Education({ language }: EducationProps) {
   return (
     <section
       id="education"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-navy/5 via-white to-white"
+      className="py-20 px-4 sm:px-6 lg:px-8"
+      style={{ background: 'linear-gradient(to bottom, rgba(0, 0, 128, 0.05), white, white)' }}
     >
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 animate-fadeInUp">
-          <h2 className="text-5xl font-bold text-navy mb-4">
+          <h2 className="text-5xl font-bold mb-4" style={{ color: '#000080' }}>
             {t.education.title}
           </h2>
-          <div className="w-20 h-1 bg-orange-vibrant mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 mx-auto rounded-full mb-6" style={{ background: '#FF8C00' }}></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             {t.education.intro}
           </p>
@@ -36,13 +37,18 @@ export default function Education({ language }: EducationProps) {
               className="animate-fadeInUp group"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="h-full bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-orange-vibrant/50 overflow-hidden card-hover">
+              <div 
+                className="h-full bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 border-2 overflow-hidden card-hover"
+                style={{ borderColor: 'transparent' }}
+                onMouseEnter={(e) => (e.currentTarget.style.borderColor = 'rgba(255, 140, 0, 0.5)')}
+                onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'transparent')}
+              >
                 {/* Header */}
-                <div className="bg-gradient-to-r from-navy to-navy/80 text-white p-6">
+                <div className="text-white p-6" style={{ background: 'linear-gradient(to right, #000080, #00006b)' }}>
                   <h3 className="text-2xl font-bold mb-2">
                     {program.institution}
                   </h3>
-                  <p className="text-orange-vibrant font-semibold text-lg">
+                  <p className="font-semibold text-lg" style={{ color: '#FF8C00' }}>
                     {program.field}
                   </p>
                 </div>
@@ -50,7 +56,10 @@ export default function Education({ language }: EducationProps) {
                 {/* Body */}
                 <div className="p-6">
                   <div className="mb-4">
-                    <span className="inline-block bg-orange-vibrant/10 text-orange-vibrant px-4 py-2 rounded-lg font-semibold text-sm mb-3">
+                    <span 
+                      className="inline-block px-4 py-2 rounded-lg font-semibold text-sm mb-3"
+                      style={{ background: 'rgba(255, 140, 0, 0.1)', color: '#FF8C00' }}
+                    >
                       {program.degree}
                     </span>
                   </div>
@@ -61,14 +70,20 @@ export default function Education({ language }: EducationProps) {
                 </div>
 
                 {/* Bottom accent */}
-                <div className="h-1 bg-gradient-to-r from-orange-vibrant to-transparent"></div>
+                <div 
+                  className="h-1"
+                  style={{ background: 'linear-gradient(to right, #FF8C00, transparent)' }}
+                ></div>
               </div>
             </div>
           ))}
         </div>
 
         {/* Vision Statement */}
-        <div className="bg-gradient-to-r from-navy to-navy/90 text-white rounded-2xl p-8 lg:p-12 animate-slideInLeft border-l-4 border-orange-vibrant">
+        <div 
+          className="text-white rounded-2xl p-8 lg:p-12 animate-slideInLeft border-l-4"
+          style={{ background: 'linear-gradient(to right, #000080, #00006b)', borderColor: '#FF8C00' }}
+        >
           <h3 className="text-3xl font-bold mb-4">
             {language === 'en' ? 'My Educational Vision' : 'Eğitim Vizyonum'}
           </h3>
@@ -76,13 +91,13 @@ export default function Education({ language }: EducationProps) {
             {t.education.intro}
           </p>
           <div className="mt-6 flex gap-4 flex-wrap">
-            <span className="bg-orange-vibrant px-4 py-2 rounded-lg font-semibold text-sm">
+            <span className="px-4 py-2 rounded-lg font-semibold text-sm" style={{ background: '#FF8C00' }}>
               💾 Data & Analysis
             </span>
-            <span className="bg-orange-vibrant px-4 py-2 rounded-lg font-semibold text-sm">
+            <span className="px-4 py-2 rounded-lg font-semibold text-sm" style={{ background: '#FF8C00' }}>
               🌍 Climate Solutions
             </span>
-            <span className="bg-orange-vibrant px-4 py-2 rounded-lg font-semibold text-sm">
+            <span className="px-4 py-2 rounded-lg font-semibold text-sm" style={{ background: '#FF8C00' }}>
               ⚙️ Software Engineering
             </span>
           </div>

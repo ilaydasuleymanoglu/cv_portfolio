@@ -14,11 +14,20 @@ export default function Hero({ language }: HeroProps) {
   return (
     <section
       id="home"
-      className="min-h-screen bg-gradient-to-b from-navy via-navy to-brown-dark text-white flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden"
+      style={{
+        background: 'linear-gradient(to bottom, #000080, #000080, #6B5344)',
+      }}
+      className="min-h-screen text-white flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden"
     >
       {/* Background decoration */}
-      <div className="absolute top-20 right-10 w-72 h-72 bg-orange-vibrant/10 rounded-full blur-3xl opacity-30"></div>
-      <div className="absolute bottom-20 left-10 w-72 h-72 bg-orange-vibrant/10 rounded-full blur-3xl opacity-30"></div>
+      <div 
+        className="absolute top-20 right-10 w-72 h-72 rounded-full blur-3xl opacity-30"
+        style={{ background: 'rgba(255, 140, 0, 0.1)' }}
+      ></div>
+      <div 
+        className="absolute bottom-20 left-10 w-72 h-72 rounded-full blur-3xl opacity-30"
+        style={{ background: 'rgba(255, 140, 0, 0.1)' }}
+      ></div>
 
       <div className="max-w-6xl w-full relative z-10">
         {/* Main Content */}

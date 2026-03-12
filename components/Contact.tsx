@@ -59,15 +59,16 @@ export default function Contact({ language }: ContactProps) {
   return (
     <section
       id="contact"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-navy/5 to-navy/10"
+      className="py-20 px-4 sm:px-6 lg:px-8"
+      style={{ background: 'linear-gradient(to bottom, white, rgba(0, 0, 128, 0.05), rgba(0, 0, 128, 0.1))' }}
     >
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fadeInUp">
-          <h2 className="text-5xl font-bold text-navy mb-4">
+          <h2 className="text-5xl font-bold mb-4" style={{ color: '#000080' }}>
             {t.contact_form.title}
           </h2>
-          <div className="w-20 h-1 bg-orange-vibrant mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 mx-auto rounded-full mb-6" style={{ background: '#FF8C00' }}></div>
           <p className="text-lg text-gray-600">
             {t.contact_form.description}
           </p>
@@ -78,15 +79,18 @@ export default function Contact({ language }: ContactProps) {
           {/* Email */}
           <a
             href={`mailto:${contact.email}`}
-            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 border-navy/10 hover:border-orange-vibrant group"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
           >
             <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
               ✉️
             </div>
-            <h3 className="text-xl font-bold text-navy mb-2">
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
               {language === 'en' ? 'Email' : 'E-posta'}
             </h3>
-            <p className="text-gray-600 group-hover:text-orange-vibrant transition-colors">
+            <p className="text-gray-600 group-hover:transition-colors" style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }} onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgb(75, 85, 99)')}>
               {contact.email}
             </p>
           </a>
@@ -94,15 +98,18 @@ export default function Contact({ language }: ContactProps) {
           {/* Phone */}
           <a
             href={`tel:${contact.phone}`}
-            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 border-navy/10 hover:border-orange-vibrant group"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
           >
             <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
               📱
             </div>
-            <h3 className="text-xl font-bold text-navy mb-2">
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
               {language === 'en' ? 'Phone' : 'Telefon'}
             </h3>
-            <p className="text-gray-600 group-hover:text-orange-vibrant transition-colors">
+            <p className="text-gray-600">
               {contact.phone}
             </p>
           </a>
@@ -112,15 +119,18 @@ export default function Contact({ language }: ContactProps) {
             href={`https://${contact.linkedin}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 border-navy/10 hover:border-orange-vibrant group"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
           >
             <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
               💼
             </div>
-            <h3 className="text-xl font-bold text-navy mb-2">
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
               LinkedIn
             </h3>
-            <p className="text-gray-600 group-hover:text-orange-vibrant transition-colors">
+            <p className="text-gray-600">
               {language === 'en' ? 'Connect with me' : 'Benimle bağlantı kurun'}
             </p>
           </a>
@@ -130,28 +140,35 @@ export default function Contact({ language }: ContactProps) {
             href={`https://${contact.company}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 border-navy/10 hover:border-orange-vibrant group"
+            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl hover:scale-105 transition-all border-2 group"
+            style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = '#FF8C00')}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = 'rgba(0, 0, 128, 0.1)')}
           >
             <div className="text-4xl mb-3 group-hover:scale-125 transition-transform">
               🌐
             </div>
-            <h3 className="text-xl font-bold text-navy mb-2">
+            <h3 className="text-xl font-bold mb-2" style={{ color: '#000080' }}>
               {language === 'en' ? 'Company' : 'Şirket'}
             </h3>
-            <p className="text-gray-600 group-hover:text-orange-vibrant transition-colors">
+            <p className="text-gray-600">
               NetCoN Technologies
             </p>
           </a>
         </div>
 
         {/* Contact Form */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 border-2 border-navy/10 animate-slideInRight">
+        <div 
+          className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 border-2 animate-slideInRight"
+          style={{ borderColor: 'rgba(0, 0, 128, 0.1)' }}
+        >
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Name Input */}
             <div>
               <label
                 htmlFor="name"
-                className="block text-sm font-semibold text-navy mb-2"
+                className="block text-sm font-semibold mb-2"
+                style={{ color: '#000080' }}
               >
                 {t.contact_form.name}
               </label>
@@ -162,7 +179,10 @@ export default function Contact({ language }: ContactProps) {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border-2 border-navy/20 rounded-lg focus:outline-none focus:border-orange-vibrant transition-colors"
+                className="w-full px-4 py-3 border-2 rounded-lg focus:outline-none transition-colors"
+                style={{ borderColor: 'rgba(0, 0, 128, 0.2)' }}
+                onFocus={(e) => (e.target.style.borderColor = '#FF8C00')}
+                onBlur={(e) => (e.target.style.borderColor = 'rgba(0, 0, 128, 0.2)')}
                 placeholder={language === 'en' ? 'Your name' : 'Adınız'}
               />
             </div>
@@ -171,7 +191,8 @@ export default function Contact({ language }: ContactProps) {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-semibold text-navy mb-2"
+                className="block text-sm font-semibold mb-2"
+                style={{ color: '#000080' }}
               >
                 {t.contact_form.email}
               </label>
@@ -182,7 +203,10 @@ export default function Contact({ language }: ContactProps) {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border-2 border-navy/20 rounded-lg focus:outline-none focus:border-orange-vibrant transition-colors"
+                className="w-full px-4 py-3 border-2 rounded-lg focus:outline-none transition-colors"
+                style={{ borderColor: 'rgba(0, 0, 128, 0.2)' }}
+                onFocus={(e) => (e.target.style.borderColor = '#FF8C00')}
+                onBlur={(e) => (e.target.style.borderColor = 'rgba(0, 0, 128, 0.2)')}
                 placeholder={language === 'en' ? 'Your email' : 'E-posta adresiniz'}
               />
             </div>
@@ -191,7 +215,8 @@ export default function Contact({ language }: ContactProps) {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-semibold text-navy mb-2"
+                className="block text-sm font-semibold mb-2"
+                style={{ color: '#000080' }}
               >
                 {t.contact_form.message}
               </label>
@@ -202,7 +227,10 @@ export default function Contact({ language }: ContactProps) {
                 onChange={handleChange}
                 required
                 rows={6}
-                className="w-full px-4 py-3 border-2 border-navy/20 rounded-lg focus:outline-none focus:border-orange-vibrant transition-colors resize-none"
+                className="w-full px-4 py-3 border-2 rounded-lg focus:outline-none transition-colors resize-none"
+                style={{ borderColor: 'rgba(0, 0, 128, 0.2)' }}
+                onFocus={(e) => (e.target.style.borderColor = '#FF8C00')}
+                onBlur={(e) => (e.target.style.borderColor = 'rgba(0, 0, 128, 0.2)')}
                 placeholder={language === 'en' ? 'Your message...' : 'Mesajınız...'}
               ></textarea>
             </div>
@@ -212,7 +240,10 @@ export default function Contact({ language }: ContactProps) {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-8 py-4 bg-orange-vibrant text-white font-bold rounded-lg hover:bg-navy transition-all duration-300 shadow-lg hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full px-8 py-4 text-white font-bold rounded-lg transition-all duration-300 shadow-lg hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed"
+                style={{ background: '#FF8C00' }}
+                onMouseEnter={(e) => (e.currentTarget.style.background = '#000080')}
+                onMouseLeave={(e) => (e.currentTarget.style.background = '#FF8C00')}
               >
                 {isSubmitting
                   ? t.contact_form.sending
@@ -222,13 +253,13 @@ export default function Contact({ language }: ContactProps) {
 
             {/* Status Messages */}
             {submitStatus === 'success' && (
-              <div className="p-4 bg-green-100 text-green-800 rounded-lg font-semibold flex items-center gap-2">
+              <div className="p-4 rounded-lg font-semibold flex items-center gap-2" style={{ background: '#dcfce7', color: '#166534' }}>
                 <span>✓</span>
                 {t.contact_form.success}
               </div>
             )}
             {submitStatus === 'error' && (
-              <div className="p-4 bg-red-100 text-red-800 rounded-lg font-semibold flex items-center gap-2">
+              <div className="p-4 rounded-lg font-semibold flex items-center gap-2" style={{ background: '#fee2e2', color: '#991b1b' }}>
                 <span>✕</span>
                 {t.contact_form.error}
               </div>

@@ -10,12 +10,12 @@ export default function Footer({ language }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-navy text-white py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="text-white py-12 px-4 sm:px-6 lg:px-8" style={{ background: '#000080' }}>
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-orange-vibrant">
+            <h3 className="text-2xl font-bold mb-4" style={{ color: '#FF8C00' }}>
               Ilayda Süleymanoğlu
             </h3>
             <p className="text-white/80">
@@ -32,22 +32,22 @@ export default function Footer({ language }: FooterProps) {
             </h4>
             <ul className="space-y-2 text-white/80">
               <li>
-                <Link href="#home" className="hover:text-orange-vibrant transition-colors">
+                <Link href="#home" className="transition-colors hover:text-white" style={{ color: 'rgba(255, 255, 255, 0.8)' }} onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}>
                   {language === 'en' ? 'Home' : 'Anasayfa'}
                 </Link>
               </li>
               <li>
-                <Link href="#experience" className="hover:text-orange-vibrant transition-colors">
+                <Link href="#experience" className="transition-colors hover:text-white" style={{ color: 'rgba(255, 255, 255, 0.8)' }} onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}>
                   {language === 'en' ? 'Experience' : 'Deneyim'}
                 </Link>
               </li>
               <li>
-                <Link href="#education" className="hover:text-orange-vibrant transition-colors">
+                <Link href="#education" className="transition-colors hover:text-white" style={{ color: 'rgba(255, 255, 255, 0.8)' }} onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}>
                   {language === 'en' ? 'Education' : 'Eğitim'}
                 </Link>
               </li>
               <li>
-                <Link href="#skills" className="hover:text-orange-vibrant transition-colors">
+                <Link href="#skills" className="transition-colors hover:text-white" style={{ color: 'rgba(255, 255, 255, 0.8)' }} onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}>
                   {language === 'en' ? 'Skills' : 'Yetenekler'}
                 </Link>
               </li>
@@ -63,7 +63,10 @@ export default function Footer({ language }: FooterProps) {
               <p>
                 <a
                   href="mailto:iisuleymanoglu@gmail.com"
-                  className="hover:text-orange-vibrant transition-colors"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
                 >
                   ✉️ iisuleymanoglu@gmail.com
                 </a>
@@ -71,7 +74,10 @@ export default function Footer({ language }: FooterProps) {
               <p>
                 <a
                   href="tel:+905065336002"
-                  className="hover:text-orange-vibrant transition-colors"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
                 >
                   📱 +90 506 533 6002
                 </a>
@@ -81,7 +87,10 @@ export default function Footer({ language }: FooterProps) {
                   href="https://linkedin.com/in/ilayda-suleymanoglu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-orange-vibrant transition-colors"
+                  className="transition-colors"
+                  style={{ color: 'rgba(255, 255, 255, 0.8)' }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = '#FF8C00')}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)')}
                 >
                   💼 LinkedIn Profile
                 </a>
@@ -91,10 +100,10 @@ export default function Footer({ language }: FooterProps) {
         </div>
 
         {/* Divider */}
-        <div className="h-1 bg-orange-vibrant/30 rounded-full mb-8"></div>
+        <div className="h-1 rounded-full mb-8" style={{ background: 'rgba(255, 140, 0, 0.3)' }}></div>
 
         {/* Bottom */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left text-white/70 text-sm">
+        <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left text-sm" style={{ color: 'rgba(255, 255, 255, 0.7)' }}>
           <p>
             © {currentYear} Ilayda Süleymanoğlu.{' '}
             {language === 'en'
