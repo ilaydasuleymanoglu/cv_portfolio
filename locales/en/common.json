@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Ilayda Süleymanoğlu",
+    "subtitle": "Energy Analyst Working Student @ Pure Energy || 3rd year @ Istanbul Technical University",
+    "tagline1": "#still learning..",
+    "tagline2": "#build #imagine #feel",
+    "focusAreas": "AI & Energy | Sustainability | Climate | Engineering",
+    "about": "A passionate researcher deeply interested in progress and innovation. An active advocate for global development goals, particularly gender equality. My academic and personal interests center on solid-state physics, climate studies, and developing accessible technologies. I aim to contribute to sustainable solutions by combining knowledge and experience in these fields.",
+    "conscientiousness": "Conscientiousness",
+    "openness": "Openness to Experience",
+    "scoreDesc": "These scores reflect that I am extremely organized, responsible, and success-oriented, while also being highly curious and creative about new ideas and experiences."
+  },
+  "contact": {
+    "phone": "+905065336002",
+    "email": "iisuleymanoglu@gmail.com",
+    "linkedin": "linkedin.com/in/ilayda-suleymanoglu",
+    "company": "www.netcontechnologies.tech"
+  },
+  "experience": {
+    "title": "Career Journey",
+    "experiences": [
+      {
+        "company": "Pure Energy",
+        "position": "Power Trader Working Student",
+        "period": "July 2025 - Present",
+        "location": "Istanbul",
+        "responsibilities": [
+          "In-depth learning of intraday and day-ahead electricity markets, Turkish sustainability regulations",
+          "Power plant optimization and management, mastery of hourly trading volumes and econometric parameters",
+          "AI-powered forecasting and prediction using machine learning tools for plant optimization",
+          "Expertise in trading concepts: IREC, OTC, origination, and Market Clearing Price (MCP)",
+          "Energy forecasting with AI and ML models"
+        ]
+      },
+      {
+        "company": "NetCoN Systems",
+        "position": "Entrepreneur",
+        "period": "January 2026 - Present",
+        "location": "Istanbul",
+        "responsibilities": [
+          "Participating in ITU SEED Acceleration Program"
+        ]
+      },
+      {
+        "company": "Astrobee Space",
+        "position": "Board Member",
+        "period": "May 2025 - Present",
+        "location": "Istanbul",
+        "responsibilities": []
+      },
+      {
+        "company": "ITU Information Processing Department",
+        "position": "IT Assistant Student",
+        "period": "July 2025 - November 2025",
+        "location": "Istanbul",
+        "responsibilities": [
+          "Developed strong communication and organizational skills",
+          "Built calm and peaceful personality traits",
+          "Gained valuable problem-solving experience"
+        ]
+      },
+      {
+        "company": "McKinsey & Company",
+        "position": "Student Trainee",
+        "period": "March 2025 - June 2025",
+        "location": "Remote",
+        "responsibilities": [
+          "Corporate communications training",
+          "Project management skills development",
+          "Case study analysis and problem-solving"
+        ]
+      },
+      {
+        "company": "Istanbul Metropolitan Municipality",
+        "position": "Fireman Trainee",
+        "period": "March 2025",
+        "location": "Istanbul",
+        "responsibilities": [
+          "Served with dedication while balancing studies",
+          "Made significant personal efforts to meet physical requirements",
+          "Also worked as: Barista, Security Personnel, Event Hostess",
+          "Learned the true value of hard work and dedication",
+          "Developed attention to detail after a crucial lesson about reading instructions carefully"
+        ]
+      },
+      {
+        "company": "Aspire Institute",
+        "position": "Graduate Student",
+        "period": "February 2024 - March 2024",
+        "location": "Istanbul",
+        "responsibilities": [
+          "Mentorship and entrepreneurship-focused educational program"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education & Academic Background",
+    "intro": "My educational journey spanning meteorology engineering, computer programming, and international exchange experiences has shaped my vision for data-driven atmospheric analysis, sustainable energy solutions, and accessible software development.",
+    "programs": [
+      {
+        "institution": "Istanbul Technical University",
+        "degree": "Bachelor of Science",
+        "field": "Meteorology Engineering",
+        "period": "September 2022 - November 2027"
+      },
+      {
+        "institution": "Atatürk University",
+        "degree": "Associate of Science",
+        "field": "Computer Programming, Specific Applications",
+        "period": "September 2024 - June 2026"
+      },
+      {
+        "institution": "Lycée Henri Poincaré",
+        "degree": "ERASMUS+",
+        "field": "International Exchange Program",
+        "period": "France"
+      },
+      {
+        "institution": "Hüseyin Bürge Anatolian High School",
+        "degree": "High School Diploma",
+        "field": "Science & Mathematics",
+        "period": "2018 - 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Certifications",
+    "topSkills": {
+      "title": "Top Skills",
+      "skills": [
+        { "name": "CTRM", "level": 85 },
+        { "name": "Streamlit", "level": 80 },
+        { "name": "Plotly", "level": 80 },
+        { "name": "AI Prompt Engineering", "level": 90 },
+        { "name": "Python Programming", "level": 85 },
+        { "name": "Data Analysis", "level": 85 },
+        { "name": "Literature Research", "level": 90 }
+      ]
+    },
+    "awards": {
+      "title": "Awards & Achievements",
+      "items": [
+        "Mobility & Climate Datathon - 1st Place Winner"
+      ]
+    },
+    "certifications": {
+      "title": "Certifications & Simulations",
+      "items": [
+        "Deloitte Australia - Data Analytics Job Simulation",
+        "Effective Communication with Erdem Karagöz",
+        "Effective Presentation Techniques with Erdem Karagöz",
+        "The Woman Has a Name"
+      ]
+    }
+  },
+  "contact_form": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out to me for any inquiries or opportunities.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "skills": "Yetenekler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Ilayda Süleymanoğlu",
+    "subtitle": "Energy Analyst Working Student @ Pure Energy || 3. Sınıf @ İstanbul Teknik Üniversitesi",
+    "tagline1": "#still learning..",
+    "tagline2": "#build #imagine #feel",
+    "focusAreas": "AI & Enerji | Sürdürülebilirlik | İklim | Mühendislik",
+    "about": "Gelişim ve inovasyona büyük ilgi duyan tutkulu bir araştırmacı. Küresel kalkınma hedeflerinin, özellikle toplumsal cinsiyet eşitliğinin aktif bir savunucusuyum. Akademik ve kişisel ilgi alanlarım katı hal fiziği, iklim çalışmaları ve erişilebilir teknolojilerin geliştirilmesidir. Bu alanlardaki bilgi ve deneyimimi birleştirerek sürdürülebilir çözümlere katkıda bulunmayı hedefliyorum.",
+    "conscientiousness": "Sorumluluk Bilinci",
+    "openness": "Deneyime Açıklık",
+    "scoreDesc": "Bu skorlar; son derece düzenli, sorumlu ve başarı odaklı olduğumu, aynı zamanda yeni fikirlere ve deneyimlere son derece meraklı ve yaratıcı olduğumu gösteriyor."
+  },
+  "contact": {
+    "phone": "+905065336002",
+    "email": "iisuleymanoglu@gmail.com",
+    "linkedin": "linkedin.com/in/ilayda-suleymanoglu",
+    "company": "www.netcontechnologies.tech"
+  },
+  "experience": {
+    "title": "Kariyer Yolculuğu",
+    "experiences": [
+      {
+        "company": "Pure Energy",
+        "position": "Power Trader Working Student",
+        "period": "Temmuz 2025 - Günümüz",
+        "location": "İstanbul",
+        "responsibilities": [
+          "Gün içi ve gün öncesi elektrik piyasaları, Türkiye sürdürülebilirlik regülasyonları detaylıca öğrenildi",
+          "Santral optimizasyonu ve yönetimi yapıldı. Saatlik işlem hacimleri ve ekonometrik parametrelere hakim olundu",
+          "Yapay zeka araçları kullanılarak santral optimizasyonu ve tahminleme yapıldı",
+          "IREC, OTC, origination ve piyasa takas fiyatı (MCP) gibi terimlere hakim olundu",
+          "AI ve ML modelleriyle enerji tahminleri yapıldı"
+        ]
+      },
+      {
+        "company": "NetCoN Systems",
+        "position": "Entrepreneur",
+        "period": "Ocak 2026 - Günümüz",
+        "location": "İstanbul",
+        "responsibilities": [
+          "ITU SEED Acceleration Program dahilinde girişimci"
+        ]
+      },
+      {
+        "company": "Astrobee Space",
+        "position": "Board Member",
+        "period": "Mayıs 2025 - Günümüz",
+        "location": "İstanbul",
+        "responsibilities": []
+      },
+      {
+        "company": "İTÜ Bilgi İşlem Daire Başkanlığı",
+        "position": "IT Assistant Student",
+        "period": "Temmuz 2025 - Kasım 2025",
+        "location": "İstanbul",
+        "responsibilities": [
+          "Güçlü iletişim ve organizasyon becerileri kazanıldı",
+          "Huzurlu ve sakin kişilik geliştirildi",
+          "Değerli problem çözme deneyimi elde edildi"
+        ]
+      },
+      {
+        "company": "McKinsey & Company",
+        "position": "Student Trainee",
+        "period": "Mart 2025 - Haziran 2025",
+        "location": "Remote",
+        "responsibilities": [
+          "Kurumsal iletişim eğitimi",
+          "Proje yönetimi becerisi geliştirme",
+          "Vaka çalışması analizi ve problem çözme"
+        ]
+      },
+      {
+        "company": "İstanbul Büyükşehir Belediyesi",
+        "position": "İtfaiyeci Stajyeri",
+        "period": "Mart 2025",
+        "location": "İstanbul",
+        "responsibilities": [
+          "Okulla paralel yürütme hedefiyle azimle görev yapıldı",
+          "Kilo şartları için özel çaba harcandı",
+          "Ayrıca: Barista, Özel Güvenlik, Etkinlik Hostesliği çalışmaları yapıldı",
+          "Her emeğin alın terini çok iyi öğrenildi",
+          "Sınav yerini eksik okuyup sınava katılamamak dikkatli olmayı öğretti"
+        ]
+      },
+      {
+        "company": "Aspire Institute",
+        "position": "Graduate Student",
+        "period": "Şubat 2024 - Mart 2024",
+        "location": "İstanbul",
+        "responsibilities": [
+          "Mentörlük ve girişimcilik odaklı eğitim projesi"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Eğitim & Akademik Geçmiş",
+    "intro": "Meteoroloji mühendisliği, bilgisayar programcılığı ve uluslararası değişim programlarını kapsayan eğitim yolculuğum, veri odaklı atmosferik analiz, sürdürülebilir enerji çözümleri ve erişilebilir yazılım geliştirme vizyonumu şekillendirmiştir.",
+    "programs": [
+      {
+        "institution": "İstanbul Teknik Üniversitesi",
+        "degree": "Lisans",
+        "field": "Meteoroloji Mühendisliği",
+        "period": "Eylül 2022 - Kasım 2027"
+      },
+      {
+        "institution": "Atatürk Üniversitesi",
+        "degree": "Ön Lisans",
+        "field": "Bilgisayar Programcılığı, Spesifik Uygulamalar",
+        "period": "Eylül 2024 - Haziran 2026"
+      },
+      {
+        "institution": "Lycée Henri Poincaré",
+        "degree": "ERASMUS+",
+        "field": "Uluslararası Değişim Programı",
+        "period": "Fransa"
+      },
+      {
+        "institution": "Hüseyin Bürge Anadolu Lisesi",
+        "degree": "Lise Diploması",
+        "field": "Fen & Matematik",
+        "period": "2018 - 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Yetenekler & Sertifikalar",
+    "topSkills": {
+      "title": "Temel Yetenkekler",
+      "skills": [
+        { "name": "CTRM", "level": 85 },
+        { "name": "Streamlit", "level": 80 },
+        { "name": "Plotly", "level": 80 },
+        { "name": "AI Prompt Engineering", "level": 90 },
+        { "name": "Python Programlama", "level": 85 },
+        { "name": "Veri Analizi", "level": 85 },
+        { "name": "Literatür Taraması", "level": 90 }
+      ]
+    },
+    "awards": {
+      "title": "Ödüller & Başarılar",
+      "items": [
+        "Mobility & Climate Datathon - 1. Ödülü"
+      ]
+    },
+    "certifications": {
+      "title": "Sertifikalar & Simülasyonlar",
+      "items": [
+        "Deloitte Australia - Data Analytics Job Simulation",
+        "Erdem Karagöz ile Etkili İletişim",
+        "Erdem Karagöz ile Etkili Sunum Teknikleri",
+        "The Woman Has a Name"
+      ]
+    }
+  },
+  "contact_form": {
+    "title": "Benimle İletişime Geçin",
+    "description": "Her türlü sorgulamalar ve fırsatlar için benimle iletişime geçmekten çekinmeyin.",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj başarıyla gönderildi!",
+    "error": "Bir şeyler yanlış gitti. Lütfen tekrar deneyiniz."
+  }
+}
