@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-gray-50 text-gray-900">{children}</body>
+      <body className="antialiased min-h-screen relative">{children}</body>
     </html>
   );
 }
